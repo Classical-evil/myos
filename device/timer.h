@@ -1,7 +1,6 @@
-#ifndef _DEVICE_TIMER_H
-#define _DEVICE_TIMER_H
-
-void timer_init() ;
-static void intr_timer_handler(); 
-
+#ifndef __DEVICE_TIME_H
+#define __DEVICE_TIME_H
+#include "stdint.h"
+void timer_init(void);
 #endif
+
